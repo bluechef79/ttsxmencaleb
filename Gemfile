@@ -32,7 +32,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'carrierwave'
 gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
-
+gem 'fog'
+gem 'figaro'
+gem 'aws-sdk', '~> 2.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
